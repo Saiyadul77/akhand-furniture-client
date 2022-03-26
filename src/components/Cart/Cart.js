@@ -5,9 +5,9 @@ const Cart = ({ cart }) => {
 
     return (
         <div className='cart'>
-            <h3>Selected Furnitures</h3>
+            <h2>Selected Furnitures</h2>
             {cart.map((item) => (
-                <h1 key={item.id}>{item.name}</h1>
+                <h3 key={item.id}>{item.name}</h3>
             ))
             }
 
