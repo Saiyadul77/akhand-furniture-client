@@ -11,7 +11,13 @@ const Cart = ({ cart }) => {
             ))
             }
 
-            {/* <p>{name}</p> */}
+            <button>
+                <p>CHOOSE 1 FOR ME</p>
+            </button>
+            <br /><br />
+            <button>
+                <p>CHOOSE AGAIN</p>
+            </button>
         </div>
     );
 };
