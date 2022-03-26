@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Product = ({ product, addToCartHandler }) => {
-    console.log(product)
+    // console.log(product)
     const { img, name, price } = product
     return (
         <div>
