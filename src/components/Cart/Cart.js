@@ -14,7 +14,11 @@ const Cart = ({ cart, chooseToCart }) => {
             }
 
             <button onClick={() => chooseToCart(cart)}>
+<<<<<<< HEAD
                 <p>CHOOSE 1 FOR ME</p>
+=======
+                <p>Choose one</p>
+>>>>>>> 371bcc5 (updated cart)
             </button>
             <br /><br />
             <button>
